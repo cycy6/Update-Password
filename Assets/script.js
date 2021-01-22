@@ -1,5 +1,7 @@
+// Defining function of button
 const display = document.querySelector("input"),
         button = document.querySelector("button");
+        // defining parameters of texts for a secured password
         let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-="
         button.onclick = ()=>{
             let i,
